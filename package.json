@@ -1,0 +1,33 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "webassembly-example",
+  "version": "1.0.0",
+  "description": "Test https://github.com/dcodeIO/webassembly",
+  "main": "lib/webassembly-example.js",
+  "scripts": {
+    "build": "wa compile src/program.c -o src/program.wasm",
+    "pretest": "npm run build",
+    "test": "node src/program.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/webassembly-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/webassembly-example/issues"
+  },
+  "homepage": "https://github.com/azu/webassembly-example",
+  "dependencies": {
+    "webassembly": "^0.11.0"
+  }
+}
