@@ -1,4 +1,4 @@
-# webassembly-example
+# webassembly-example [![Build Status](https://travis-ci.org/azu/webassembly-example.svg?branch=master)](https://travis-ci.org/azu/webassembly-example)
 
 An example of [dcodeIO/webassembly](https://github.com/dcodeIO/webassembly "dcodeIO/webassembly").
 Run webassembly on Node.js
